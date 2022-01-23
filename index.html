@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="header bg-success">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Modhumita Convention Center</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -102,12 +102,12 @@
     <div class="greetings">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 d-flex flex-column align-items-center">
                     <h1>Welcome to Madhumita Convention Hall</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
                 </div>
-                <div class="col-md-12">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab repellat asperiores ducimus dolor unde! Amet consequuntur dolorem quia aliquam commodi?</p>
+                <div class="col-md-12 text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab repellat asperiores ducimus dolor unde! Amet consequuntur dolorem quia aliquam commodi?  Ab repellat asperiores ducimus dolor unde! Amet consequuntur dolorem quia aliquam commo</p>
                 </div>
             </div>
             <div class="row">
@@ -291,14 +291,16 @@
       </div>
     </div>
 
-    <footer>
+    <footer class="bg-dark h-50">
       <div class="container">
         <div class="row">
-          <p>&copy;2022 Madhumita. All rights reserved</p>
-          <div>
-            <img class="img-fluid" src="images/apple.png" alt="">
-            <img class="img-fluid" src="images/play.png" alt="">
+         <div class="d-flex justify-content-between align-items-center">
+          <p class="text-white">&copy;2022 Madhumita. All rights reserved</p>
+          <div class="d-flex flex-column ms-auto">
+            <img class="img-fluid w-25" src="images/apple.png" alt="">
+            <img class="img-fluid w-25" src="images/play.png" alt="">
           </div>
+         </div>
         </div>
       </div>
     </footer>
