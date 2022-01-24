@@ -12,19 +12,20 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
- <style>
-    .events img{
-       height: 250px !important;
-    }
- </style>
+   <style>
+      .events img {
+         height: 250px !important;
+      }
+   </style>
 
 </head>
 
-<body class="bg-secondary bg-opacity-25 f">
+<body class="bg-secondary bg-opacity-25">
    <header class="header bg-success">
       <nav class="navbar navbar-expand-lg navbar-light">
          <div class="container-fluid">
-            <a class="navbar-brand text-white fw-bolder h1 text-uppercase" href="#">Modhumita Convention Center</a>
+            <a class="navbar-brand text-white fw-bolder h1 text-uppercase" href="#">Modhumita <span
+                  class="d-none d-sm-none d-md-inline d-lg-inline">Convention Center</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                aria-label="Toggle navigation">
@@ -56,52 +57,54 @@
 
          <!-- Indicators/dots -->
          <div class="carousel-indicators">
-           <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-           <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-           <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-           <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="3"></button>
          </div>
-         
+
          <!-- The slideshow/carousel -->
          <div class="carousel-inner">
-           <div class="carousel-item active">
-             <img src="images/slider/images-4.jpg"  alt="Los Angeles" class="d-block" style="width:100%">
-             <div class="carousel-caption">
-               <h3>Los Angeles</h3>
-               <p>We had such a great time in LA!7</p>
-             </div>
-           </div>
-           <div class="carousel-item">
-             <img src="images/slider/images-3.jpg"  alt="Chicago" class="d-block" style="width:100%">
-             <div class="carousel-caption">
-               <h3>Chicago</h3>
-               <p>Thank you, Chicago!5</p>
-             </div> 
-           </div>
-           <div class="carousel-item">
-             <img src="images/slider/images-2.jpg"  alt="New York" class="d-block" style="width:100%">
-             <div class="carousel-caption">
-               <h3>New York</h3>
-               <p>We love the Big Apple!1</p>
-             </div>  
-           </div>
-           <div class="carousel-item">
-             <img src="images/slider/images-1.jpg" alt="New York" class="d-block" style="width:100%">
-             <div class="carousel-caption">
-               <h3>New York</h3>
-               <p>We love the Big Apple 2!</p>
-             </div>  
-           </div>
+            <div class="carousel-item active">
+               <img src="images/slider/images-4.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+               <div class="carousel-caption">
+                  <h3>Fully Furnished</h3>
+                  <p>This venue is totally customizable and facilitated with all modern amenities</p>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="images/slider/images-3.jpg" alt="Chicago" class="d-block" style="width:100%">
+               <div class="carousel-caption">
+                  <div>
+                     <h3>Wedding Ceremony</h3>
+                  <p>A wide and vast view with the green environment, ICCB is the best place for Wedding</p>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="images/slider/images-2.jpg" alt="New York" class="d-block" style="width:100%">
+               <div class="carousel-caption">
+                  <h3>Facilities and Capacities</h3>
+                  <p>Two (02) Green Rooms, Central Air Condition (only for Halls)</p>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="images/slider/images-1.jpg" alt="New York" class="d-block" style="width:100%">
+               <div class="carousel-caption">
+                  <h3>Impressive and Memorable</h3>
+                  <p>all modern amenities for making your ceremony impressive and memorable</p>
+               </div>
+            </div>
          </div>
-         
+
          <!-- Left and right controls/icons -->
-         <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-           <span class="carousel-control-prev-icon"></span>
+         <button class="carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
          </button>
-         <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-           <span class="carousel-control-next-icon"></span>
+         <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
          </button>
-       </div>
+      </div>
    </div>
 
    <div class="greetings">
@@ -110,8 +113,13 @@
          <div class="row mb-5">
             <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
                <div>
-                  <h2 class="text-success">International Madhumita Convention Hall</h1>
-                     <p>Madhumita Convention Center (MCC) is the only multi-purpose convention facility in the country, having 10 (ten) venues for holding small to large scale events, i.e, state functions, social events, seminars, conferences, product launches, annual general meetings, fairs, exhibitions, cultural programs, reality shows, etc. It has been the venue for many renowned economic, social  and cultural events. It has proudly hosted a number of international conferences and summits.
+                  <h2 class="text-success text-sm-center text-center text-md-start text-lg-start">Madhumita Convention
+                     Hall</h1>
+                     <p>Madhumita Convention Center (MCC) is the only multi-purpose convention facility in the country,
+                        having 10 (ten) venues for holding small to large scale events, i.e, state functions, social
+                        events, seminars, conferences, product launches, annual general meetings, fairs, exhibitions,
+                        cultural programs, reality shows, etc. It has been the venue for many renowned economic, social
+                        and cultural events. It has proudly hosted a number of international conferences and summits.
                      </p>
                </div>
             </div>
@@ -119,31 +127,22 @@
                <img class="img-fluid" src="images/hall/hall-2.jpg" alt="">
             </div>
          </div>
-         <div class="row mt-5 position-relative">
-            <div class="d-flex justify-content-end position-absolute top-0">
-               <div class="toast show">
-                  <div class="toast-header">
-                     <strong class="me-auto text-warning fs-6">30% off</strong>
-                     <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
-                  </div>
-                  <div class="toast-body">
-                     <p class="text-success">This is winter very special offer</p>
-                  </div>
-               </div>
-            </div>
+         <div class="row mt-5">
+
 
             <div class="col-md-12 d-flex flex-column align-items-center mt-3">
                <h4>Conference</h4>
                <h2 class="h1 text-success">Feature Hall</h2>
-               <p class="mt-3">We don't guarantee that all the information of this website is 100% correct even though we have taken this information ourself to authenticate.</p>
+               <p class="mt-3">We don't guarantee that all the information of this website is 100% correct even though
+                  we have taken this information ourself to authenticate.</p>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                <img class="img-fluid w-100 h-50" src="images/hall/hall-1.jpg" alt="Hall - 1">
                <div>
                   <h2 class="text-success">Panoroma Hall-01</h2>
-                  <hr>
-                  <h4>10,000 Square Feet Space 1,000 Guests Capacity</h4>
-                  <p>We are ready for <span class="fs-6 fw-bold">Wedding Ceremony/Reception/Gaye Halud/Corporate Events</span></p>
+                  <h5>10,000 Square Feet Space 1,500 Guests Capacity</h5>
+                  <p>We are ready for <span class="fs-6 fw-bold">Wedding Ceremony/Reception/Gaye Halud/Corporate
+                        Events</span></p>
                   <p><a class="btn btn-warning" href="">Book Now</a></p>
                </div>
             </div>
@@ -152,20 +151,31 @@
                <img class="img-fluid w-100 h-50" src="images/hall/hall-2.jpg" alt="Hall - 2">
                <div>
                   <h2 class="text-success">Panoroma Hall-02</h2>
-                  <hr>
-                  <h4>5,000 Square Feet Space 500 Guests Capacity</h4>
-                  <p>We are ready for <span class="fs-6 fw-bold">Wedding Ceremony/Reception/Gaye Halud/Corporate Events</span></p>
+                  <h5>5,000 Square Feet Space 1,200 Guests Capacity</h5>
+                  <p>We are ready for <span class="fs-6 fw-bold">Wedding Ceremony/Reception/Gaye Halud/Corporate
+                        Events</span></p>
                   <p><a class="btn btn-warning" href="">Book Now</a></p>
                </div>
 
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4  position-relative">
+               <div class="d-flex justify-content-end position-absolute top-0">
+                  <div class="toast show">
+                     <div class="toast-header">
+                        <strong class="me-auto text-warning fs-6">30% off</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+                     </div>
+                     <div class="toast-body">
+                        <p class="text-success">This is winter very special offer</p>
+                     </div>
+                  </div>
+               </div>
                <img class="img-fluid w-100 h-50" src="images/hall/hall-3.jpg" alt="Hall - 3">
                <div>
                   <h2 class="text-success">Panoroma Hall-03</h2>
-                  <hr>
-                  <h4>8,000 Square Feet Space 700 Guests Capacity</h4>
-                  <p>We are ready for <span class="fs-6 fw-bold">Wedding Ceremony/Reception/Gaye Halud/Corporate Events</span></p>
+                  <h5>8,000 Square Feet Space 1,300 Guests Capacity</h5>
+                  <p>We are ready for <span class="fs-6 fw-bold">Wedding Ceremony/Reception/Gaye Halud/Corporate
+                        Events</span></p>
                   <p><a class="btn btn-warning" href="">Book Now</a></p>
                </div>
             </div>
@@ -178,31 +188,33 @@
          <h2 class="text-center mt-5 mb-5 fw-bold text-success">Our Packages</h2>
          <div class="row">
             <div class="col-md-3 mt-5">
-               <div class="bg-light border border-2 p-2 border-success rounded-2">
+               <div class="bg-light border border-2 p-4 border-success rounded-2">
                   <p class="h1 text-success">$5,000</p>
                   <h4 class="h3 text-success">Wedding Ceremony</h4>
                   <p>Suhagaan in the ground floor of our building 2 is ideal for any Wedding Events</p>
                   <div>
                      <p><span class="me-1"> <i class="fa fa-check-circle"></i></span>Two (02) Green Rooms</p>
-                     <p><span class="me-1"> <i class="fa fa-check-circle"></i></span> Central Air Condition (only for Halls) </p>
+                     <p><span class="me-1"> <i class="fa fa-check-circle"></i></span> Central Air Condition (only for
+                        Halls) </p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span> CC TV Camera Coverage</p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span>Free Wi-Fi</p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span> Hygienic Fresh Room</p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span> Two (02) Microphones</p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span> One (01) Raffle Draw Box</p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span> One (01) Archway Gate</p>
-                  </div>     
+                  </div>
                   <p class="text-center"><a class="btn btn-success" href="">Choose Plan</a></p>
                </div>
             </div>
             <div class="col-md-3 mt-5">
-               <div class="bg-light border border-2 p-2 border-success rounded-2">
+               <div class="bg-light border border-2 p-4 border-success rounded-2">
                   <p class="h1 text-success">$4,000</p>
                   <h4 class="h3 text-success">Business Fair</h4>
                   <p>Suhagaan in the ground floor of our building 2 is ideal for any Wedding Events</p>
                   <div>
                      <p><span class="me-1"> <i class="fa fa-check-circle"></i></span>Two (02) Green Rooms</p>
-                     <p><span class="me-1"> <i class="fa fa-check-circle"></i></span> Central Air Condition (only for Halls) </p>
+                     <p><span class="me-1"> <i class="fa fa-check-circle"></i></span> Central Air Condition (only for
+                        Halls) </p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span> CC TV Camera Coverage</p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span>Free Wi-Fi</p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span> Hygienic Fresh Room</p>
@@ -215,7 +227,7 @@
             </div>
             <div class="col-md-3">
 
-               <div class="bg-success border border-2 p-2 border-success rounded-3 text-white position-relative">
+               <div class="bg-success border border-2 p-4 border-success rounded-3 text-white position-relative">
                   <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">Hot
                   </span>
                   <p class="h1 text-warning">$3,000</p>
@@ -223,7 +235,8 @@
                   <p>Suhagaan in the ground floor of our building 2 is ideal for any Wedding Events</p>
                   <div>
                      <p><span class="me-1"> <i class="fa fa-check-circle"></i></span>Two (02) Green Rooms</p>
-                     <p><span class="me-1"> <i class="fa fa-check-circle"></i></span> Central Air Condition (only for Halls) </p>
+                     <p><span class="me-1"> <i class="fa fa-check-circle"></i></span> Central Air Condition (only for
+                        Halls) </p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span> CC TV Camera Coverage</p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span>Free Wi-Fi</p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span> Hygienic Fresh Room</p>
@@ -235,13 +248,14 @@
                </div>
             </div>
             <div class="col-md-3 mt-5">
-               <div class="bg-light border border-2 p-2 border-success rounded-3">
+               <div class="bg-light border border-2 p-4 border-success rounded-3">
                   <p class="h1 text-success">$3,500</p>
                   <h4 class="h3 text-success">Social Events</h4>
                   <p>Suhagaan in the ground floor of our building 2 is ideal for any Wedding Events</p>
                   <div>
                      <p><span class="me-1"> <i class="fa fa-check-circle"></i></span>Two (02) Green Rooms</p>
-                     <p><span class="me-1"> <i class="fa fa-check-circle"></i></span> Central Air Condition (only for Halls) </p>
+                     <p><span class="me-1"> <i class="fa fa-check-circle"></i></span> Central Air Condition (only for
+                        Halls) </p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span> CC TV Camera Coverage</p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span>Free Wi-Fi</p>
                      <p><span class="me-1"><i class="fa fa-check-circle"></i></span> Hygienic Fresh Room</p>
@@ -266,9 +280,13 @@
                   <div class="mt-3">
                      <h4>Daraz staff's party booked date on </h4>
                      <p class="text-success fs-6 fw-bold">
-                        <span class="text-dark h3 fw-bolder">28</span>/01/2022<span class="text-dark h4 fw-bolder text-opacity-75"> (Booked)</span>
+                        <span class="text-dark h3 fw-bolder">28</span>/01/2022<span
+                           class="text-dark h4 fw-bolder text-opacity-75"> (Booked)</span>
                      </p>
-                     <p>Black & White our contemporary business meeting room is ideal for any small business meeting or corporate roundtable of 500 persons. This room is ready to cater any business need, available rentable facilities are: Multimedia Projector/Screen, Flipchart board, Audio visuals etc.(On demand).</p>
+                     <p>Black & White our contemporary business meeting room is ideal for any small business meeting or
+                        corporate roundtable of 500 persons. This room is ready to cater any business need, available
+                        rentable facilities are: Multimedia Projector/Screen, Flipchart board, Audio visuals etc.(On
+                        demand).</p>
                      <p><a class="btn btn-warning" href="">more details</a></p>
                   </div>
                </div>
@@ -279,9 +297,13 @@
                   <div class="mt-3">
                      <h4>Wedding Ceremony booked date on </h4>
                      <p class="text-success fs-6 fw-bold">
-                        <span class="text-dark h3 fw-bolder">04</span>/02/2022<span class="text-dark h4 fw-bolder text-opacity-75"> (Booked)</span>
+                        <span class="text-dark h3 fw-bolder">04</span>/02/2022<span
+                           class="text-dark h4 fw-bolder text-opacity-75"> (Booked)</span>
                      </p>
-                     <p>Any evests e.g. wedding, birthdays or anniversaries.Ambience, ceiling design with contemporary lightings, modern furniture's along with matching linens give the hall a festive and gorgeous look for your event. our open air grass lawn which can be merged together with the hall for any event of larger number of guests.</p>
+                     <p>Any evests e.g. wedding, birthdays or anniversaries.Ambience, ceiling design with contemporary
+                        lightings, modern furniture's along with matching linens give the hall a festive and gorgeous
+                        look for your event. our open air grass lawn which can be merged together with the hall for any
+                        event of larger number of guests.</p>
                      <p><a class="btn btn-warning" href="">more details</a></p>
                   </div>
                </div>
@@ -292,9 +314,13 @@
                   <div class="mt-3">
                      <h4>Pro Hero Party booked date on </h4>
                      <p class="text-success fs-6 fw-bold d-block">
-                        <span class="text-dark h3 fw-bolder">11</span>/02/2022<span class="text-dark h4 fw-bolder text-opacity-75"> (Booked)</span>
+                        <span class="text-dark h3 fw-bolder">11</span>/02/2022<span
+                           class="text-dark h4 fw-bolder text-opacity-75"> (Booked)</span>
                      </p>
-                     <p>Our building 1 is ideal for any sort of Meetings, Conferences, AGMs, and Corporate Roundtable etc.Nice décor, ambience, ceiling design with contemporary lightings, and large sized motorized screen plus sound system are all here to cater your meeting needs. Additional audio-visual support can be provided on demand.</p>
+                     <p>Our building 1 is ideal for any sort of Meetings, Conferences, AGMs, and Corporate Roundtable
+                        etc.Nice décor, ambience, ceiling design with contemporary lightings, and large sized motorized
+                        screen plus sound system are all here to cater your meeting needs. Additional audio-visual
+                        support can be provided on demand.</p>
                      <p><a class="btn btn-warning" href="">more details</a></p>
                   </div>
                </div>
@@ -320,7 +346,8 @@
                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                         aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body">
-                           <strong>yeah, We also are decorated for corporate events. And please, more information contact with us</strong>
+                           <strong>yeah, We also are decorated for corporate events. And please, more information
+                              contact with us</strong>
                         </div>
                      </div>
                   </div>
@@ -335,7 +362,7 @@
                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                         aria-labelledby="panelsStayOpen-headingTwo">
                         <div class="accordion-body">
-                           <strong>Yeah, Thousands of guest to attend our place. and it is managable.</strong> 
+                           <strong>Yeah, Thousands of guest to attend our place. and it is managable.</strong>
                         </div>
                      </div>
                   </div>
@@ -365,27 +392,25 @@
    </div>
 
    <footer class="bg-dark h-50 p-3">
-
       <div class="container">
          <div class="row">
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-sm-center justify-content-lg-between">
                <p class="text-white">&copy;2022 Madhumita. All rights reserved</p>
-               <div class="d-flex flex-column text-end">
-                  <h4 class="text-white">Get the App</h4>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex justify-content-lg-end align-items-sm-center">
+               <div class="d-flex flex-column text-start">
+                  <h5 class="text-white">Get the App</h5>
                   <a target="_blank" href="https://www.apple.com/store">
-                     <img class="img-fluid w-25 h-25" src="images/apple.png" alt="">
+                     <img src="images/apple.png" alt="" width="200" height="50">
                   </a>
                   <a target="_blank" href="https://play.google.com/store/apps">
-                     <img class="img-fluid w-25 h-25" src="images/play.png" alt="">
+                     <img src="images/play.png" alt="" width="200" height="50">
                   </a>
                </div>
             </div>
          </div>
       </div>
    </footer>
-
-   
-
 
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
